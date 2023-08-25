@@ -155,13 +155,13 @@ main {
     text-align: center;
 }
 
-#odstexto {
+#odstextodiv {
     text-align: center;
     margin: 2rem 0 0;
 }
 
 
-#odstexto h2 {
+#odstextodiv h2 {
     margin-bottom: 1.5rem;
 }
 
@@ -203,6 +203,11 @@ main {
         max-width: none;
         width: 100%;
     }
+
+    #menu {
+        display: none;
+    }
+
 }
 
 .paragiframe {
@@ -294,7 +299,12 @@ footer {
 
 #elasnatech {
     font-style: italic;
-    font-size: 1.2rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.ref {
+    font-size: 0.9rem;
 }
 
 /* =================================================================== */

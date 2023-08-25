@@ -1,0 +1,300 @@
+/* === INÍCIO - CSS RESET === */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    font-family: var(--fontFamily);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: var(--azulescuro);
+    text-decoration: none;
+}
+
+/* === FIM - CSS RESET === */
+
+:root {
+    --azul1: #0f5480;
+    --azul2: #5fafe1;
+    --azul3: #1a91db;
+    --azul4: #27475c;
+    --azul5: #1470a8;
+    --fontFamily: "Roboto", sans-serif;
+    --fontFamily2: "Arial";
+}
+
+body {
+    padding-top: 60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--fontFamily2);
+    font-weight: 600;
+}
+
+h1 {
+    color: var(--azul1);
+}
+
+h2 {
+    color: var(--azul2);
+}
+
+h3 {
+    color: var(--azul3);
+}
+
+h4 {
+    color: var(--azul4);
+}
+
+p {
+    line-height: 1.7rem;
+    font-size: 18px;
+}
+
+header {
+    background-color: var(--azul1);
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+header:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#logodiv {
+    float: left;
+    height: 100%;
+    padding-top: 0.2rem;
+    width: 200px;
+}
+
+#logo {
+    width: 180px;
+    margin-left: 1rem;
+}
+
+
+#menu {
+    float: right;
+    margin-right: 2%;
+    list-style: none;
+    margin-top: 0px;
+    font-size: 100%;
+}
+
+.nav {
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+.nav:hover {
+    background-color: var(--azul2);
+    color: black;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2rem 1rem 0;
+    width: 100%;
+}
+
+#ods {
+    padding: 0;
+}
+
+#imgods {
+    padding: 0;
+}
+
+#odsh1 {
+    color: var(--azul2);
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+#odstexto {
+    text-align: center;
+    margin: 2rem 0 0;
+}
+
+
+#odstexto h2 {
+    margin-bottom: 1.5rem;
+}
+
+.odstexto {
+    margin: 0;
+    margin-bottom: 3rem;
+    line-height: 2rem;
+}
+
+#videoods {
+    margin: 3rem 0;
+    padding: 0;
+
+}
+
+#videoods:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+#iframe {
+    width: 50%;
+    max-width: 550px;
+    float: left;
+}
+
+#textoiframe {
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding: 1rem;
+}
+
+@media (max-width: 992px) {
+
+    #iframe,
+    #textoiframe {
+        max-width: none;
+        width: 100%;
+    }
+}
+
+.paragiframe {
+    text-align: justify;
+    line-height: 2rem;
+}
+
+#eduquali {
+    text-align: center;
+}
+
+#boxeducacao {
+    text-align: center;
+    padding-top: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    margin: 1rem;
+    max-width: 250px;
+    padding: 1rem;
+}
+
+
+.txtcard {
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 14px;
+    /* overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap; */
+
+}
+
+.iconecard {
+    text-align: center;
+    height: auto;
+    max-width: 30%;
+}
+
+#propostas {
+    padding: 0;
+    text-align: left;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+
+#paragpropostas {
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+#boxpropostas h2,
+#paragpropostas {
+    text-align: center;
+}
+
+
+ol {
+    margin-top: 2rem;
+}
+
+ol li {
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+ol li strong {
+    display: block;
+}
+
+#fimpropostas {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+footer {
+    padding: 20px 20px 20px 20px;
+    background-color: var(--azul5);
+    color: black;
+    display: block;
+    text-align: right;
+    margin-top: 2rem;
+}
+
+#elasnatech {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+/* =================================================================== */

@@ -1,0 +1,5 @@
+1) Tornar menu de navegação responsivo (sumir quando atingir a largura mobile).
+
+2) Verificar se precisa adicionar mais alguma feature.
+
+3) Fazer pitch?
